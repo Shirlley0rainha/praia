@@ -3,52 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Organizado e Bonito</title>
+    <title>Layout estilo Pinterest</title>
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header>
-        <h1>Bem-vindo ao Meu Site</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#imagem">Imagem</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <header style="text-align: center; padding: 20px; background-color: #e60023; color: white;">
+        <h1>Meu Layout Pinterest</h1>
     </header>
 
-    <!-- Conteúdo principal -->
-    <main>
-        <!-- Seção Sobre -->
-        <section id="sobre">
-            <h2>Sobre</h2>
-            <p>Este é um site simples e organizado, criado apenas com HTML. Ele é estruturado de forma semântica para ser acessível e fácil de entender.</p>
-        </section>
+    <!-- Grade de Imagens -->
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; padding: 20px;">
+        <!-- Card 1 -->
+        <div style="flex: 1 1 200px; background-color: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
+            <img src="https://via.placeholder.com/300x200" alt="Imagem 1" style="width: 100%;">
+            <div style="padding: 10px;">
+                <h3>Título do Card 1</h3>
+                <p>Descrição breve do card 1.</p>
+            </div>
+        </div>
 
-        <!-- Seção da Imagem -->
-        <section id="imagem">
-            <h2>Imagem Destacada</h2>
-            <figure>
-                <img src="caminho/para/sua/imagem.jpg" alt="Descrição da Imagem" width="600">
-                <figcaption>Uma imagem incrível para ilustrar o site.</figcaption>
-            </figure>
-        </section>
+        <!-- Card 2 -->
+        <div style="flex: 1 1 200px; background-color: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
+            <img src="https://via.placeholder.com/300x250" alt="Imagem 2" style="width: 100%;">
+            <div style="padding: 10px;">
+                <h3>Título do Card 2</h3>
+                <p>Descrição breve do card 2.</p>
+            </div>
+        </div>
 
-        <!-- Seção de Contato -->
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco:</p>
-            <address>
-                Email: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a><br>
-                Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a>
-            </address>
-        </section>
-    </main>
+        <!-- Card 3 -->
+        <div style="flex: 1 1 200px; background-color: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
+            <img src="https://via.placeholder.com/300x300" alt="Imagem 3" style="width: 100%;">
+            <div style="padding: 10px;">
+                <h3>Título do Card 3</h3>
+                <p>Descrição breve do card 3.</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div style="flex: 1 1 200px; background-color: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
+            <img src="https://via.placeholder.com/300x150" alt="Imagem 4" style="width: 100%;">
+            <div style="padding: 10px;">
+                <h3>Título do Card 4</h3>
+                <p>Descrição breve do card 4.</p>
+            </div>
+        </div>
+    </div>
 
     <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+    <footer style="text-align: center; padding: 10px; background-color: #333; color: white;">
+        <p>&copy; 2023 Meu Layout Pinterest</p>
     </footer>
 </body>
 </html>
